@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu-container{
+    background-color: rgb(35, 30, 30);
+    padding: 20px;
+color: white;
+list-style: none;
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+}
+.logo-photo{
+    width: 100px;
+    
+}
+.menus{
+    display: flex;
+    font-size: xx-large;
+    justify-content: space-around;
+    
+}
+.item{
+    margin: 30px 35px;
+    font-size: 49px;
+}
+.item:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.banner-img{
+    width: 1100px;
+
+}
+.banner-container{
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid rebeccapurple; */
+    height: 100vh;
+    background-color: rgb(12, 11, 11);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.banner-text{
+    font-size:100px;
+    font-weight: 75;
+    color: white;
+}
+.small{
+    font-size: 65px
+}
+.btm{
+    background-color: red;
+    font-size: 45px;
+    padding: 45px;
+    border: 1px solid red;
+    border-radius: 20px;
+    color: white;
+    
+}
+.about-container{
+    display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 35px;
+
+}
+.about-info{
+    color: black;
+    padding: 30px;
+    margin: 50px;
+    font-size: 50px;
+   padding-bottom: 35px;
+   padding-top: 40px;
+   
+}
+.about{
+    text-align: center;
+    font-size: 120px;
+    padding-top: 60px;text-decoration: overline;
+    
+}
+.box{
+    font-size: 45px;
+    width: 700px;
+    height: 770px;
+    box-shadow: 4px 4px 15px gray;
+    text-align: center;
+    background-color: black;
+    text-align: center;
+    padding: 20px; 
+    color: white; 
+}
+
+.icon{
+    width: 200px;
+}
+.box-btm{
+    background-color: gray;
+    font-size: 45px;
+    padding: 35px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    color: white;
+
+}
+.box-title{
+    padding: 40px;
+}
+.box-description{
+    padding: 15px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    height: 60vh;
+    /* background-color: rgb(54, 23, 23); */
+    background-image: url("images/download.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.foot{
+    justify-content: space-around;
+    height: 30vh;
+    display: flex;
+    font-size: 60px;
+    /* margin-top: 15px; */
+    
+    padding-top: 85px solid rgb(13, 13, 12) ;
+    /* background-image: url("images/down2.jpg"); */
+    background-color: rgb(85, 83, 83);
+}
+.final:hover{
+    color: blue;
+    cursor: pointer;
+}
+.final-2:hover{
+    color: rgb(149, 85, 156);
+    cursor: pointer;
+}
+.box-btm:hover{
+color: rgb(8, 245, 71);
+cursor: pointer;
+    
+}
+.btm:hover{
+    color: blue;
+    cursor: pointer;
+}
